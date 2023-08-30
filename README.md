@@ -1,6 +1,6 @@
 Group name : Astro-Intelligence
 Group members: Keokeditse Ofentse Ndala, Rothang Ralph Ralefaso, Oratile Diale , Siphosethu Malinda
-Group mentor : 
+Group mentor : N/A
 project title: Astro-slither
 project page : https://github.com/Keokeditse/Astro-Intelligence.git
 instructions for the use(allowed actions): 
