@@ -13,6 +13,7 @@ Instructions for the use(allowed actions):
 Tools used: 
   Processing 4 - Mainly for the demo version and GUI designs.
   Andriod Studio - compile the game and develop it.
+  LibGDX  - used as external library used to create controlls
   
 Concepts used:
   Custom-Class - It is the game design, the code behind the game.
