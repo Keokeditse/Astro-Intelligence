@@ -1,9 +1,12 @@
 import javax.swing.*;
+import java.awt.Dimension; // gets screen dimension
+import java.awt.Toolkit; //its a toolkit 
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int boardWidth = 600;
-        int boardHeight = boardWidth;
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		int boardHeight = screenSize.height;
+		int boardWidth = screenSize.width;
 
         JFrame frame = new JFrame("Snake Game");
         frame.setVisible(true);
