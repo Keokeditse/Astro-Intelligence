@@ -15,6 +15,8 @@ import java.io.PrintWriter;
 import java.io.IOException;
 import java.util.Locale;
 
+// was used to try and make database dont use it 
+
 public class SnakeGame(1) extends JPanel implements ActionListener, KeyListener {
     private class Tile {
         int x;
@@ -107,8 +109,8 @@ public class SnakeGame(1) extends JPanel implements ActionListener, KeyListener 
             g.drawString("Game Over: " + String.valueOf(snakeBody.size()), tileSize - 16, tileSize);
 
 
-            writeScorefile(snakeBody);// ADD THE PERSONAL RECORD KEEPING AROUND HERE I SUGGEST WE BUILD A METHOD THAT DOES THIS BUT IT ITS UP TO YOU BUT REMEMBER DONT CHANGE THE CODE MAKE A COPY
-            int best=readScorefile();
+            //writeScorefile(snakeBody);// ADD THE PERSONAL RECORD KEEPING AROUND HERE I SUGGEST WE BUILD A METHOD THAT DOES THIS BUT IT ITS UP TO YOU BUT REMEMBER DONT CHANGE THE CODE MAKE A COPY
+            //int best=readScorefile();
         }
         else {
             g.drawString("Score: " + String.valueOf(snakeBody.size()), tileSize - 16, tileSize);
@@ -164,7 +166,6 @@ public class SnakeGame(1) extends JPanel implements ActionListener, KeyListener 
         return tile1.x == tile2.x && tile1.y == tile2.y;
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) { //called every x milliseconds by gameLoop timer
         move();
         repaint();
@@ -173,7 +174,7 @@ public class SnakeGame(1) extends JPanel implements ActionListener, KeyListener 
         }
     }  
 
-    @Override
+
     public void keyPressed(KeyEvent e) {
         // System.out.println("KeyEvent: " + e.getKeyCode());
         if (e.getKeyCode() == KeyEvent.VK_UP && velocityY != 1) {
@@ -204,9 +205,9 @@ public class SnakeGame(1) extends JPanel implements ActionListener, KeyListener 
   }catch(IOException e){
       e.printStackTrace();}
 }
-public int readScorefile(){
-  path filepath = paths.get("D:\\user\\Records.txt");
-}
+//public int readScorefile(){
+  //path filepath = paths.get("D:\\user\\Records.txt");
+//}
   
 
 
@@ -214,9 +215,9 @@ public int readScorefile(){
 
 
     //not needed
-    @Override
+    
     public void keyTyped(KeyEvent e) {}
 
-    @Override
+    
     public void keyReleased(KeyEvent e) {}
 }
