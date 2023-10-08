@@ -36,6 +36,7 @@ Limitation:
   Implementing animations and music in our game.
   Implementing more than one snake on the same screen, reason being we did not want to make the app to use internet access for it to allow multiplayers.
   Moving other snakes randomly, without colliding with each other again and again.
+  Time was our biggest constraint.
   
   
   
