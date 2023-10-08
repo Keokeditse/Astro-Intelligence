@@ -7,7 +7,9 @@ project page : https://github.com/Keokeditse/Astro-Intelligence.git
 Instructions for the use(allowed actions): 
   The game won't require internet access to run.
   If the user has the full version of the game, they'll simply have to click on the game application on an android device and the game will run smoothly(ONLY  if the android device is version 10 and above).
-  After the program has ran smoothly and the user can interact with the system. Reading through the game GUI for navigation and how to play it and the application will provide basic steps on how to play the game.
+  After the program has ran smoothly and the user can interact with the system. Reading through the game GUI for navigation and how to play it.
+  We tried to make the application to be easy to interact with, after the program ran completely, you will see an option for 'play' to play the game.
+  The snake moves automatically in one direction, but for you to change its direction, you have to 'swipe' in the direction you want to move at and the snake will easily following your interactions with the screen, till you eat the fruit, the snake length increases.
   After first attempt, surely the user will be familiar with the game and will now know how to navigate through the app and play the game.
   
 Tools used: 
@@ -32,5 +34,8 @@ Limitation:
   Learning different languages on our own to make certain features that we want our game to have.
   Implementing high quality graphics in our game.
   Implementing animations and music in our game.
+  Implementing more than one snake on the same screen, reason being we did not want to make the app to use internet access for it to allow multiplayers.
+  Moving other snakes randomly, without colliding with each other again and again.
+  
   
   
